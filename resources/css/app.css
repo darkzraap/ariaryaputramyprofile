@@ -1,0 +1,29 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    --color-ungu: #090040;
+
+    --color-sub : #415E72;
+
+    --color-dasar : #4C0F21;
+
+    --color-itam : #170F0F;
+
+    --color-mera : #A40B0B;
+
+    --color-kuning : #FFFF00;
+
+
+    --color-oren : #FF8000;
+
+    --color-biru : #5612DD;
+
+    --color-pin : #FF19B2;
+}
+
+

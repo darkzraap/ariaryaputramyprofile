@@ -32,7 +32,9 @@
         <!-- Actions -->
         <div class="flex flex-row gap-3 items-center">
             <a href="#" class="bg-white px-3 py-2 rounded-xl font-inter text-black ">{{$project->status}}</a>
-            <a href="{{route('projectdetail',  $project->slug)}}" class="bg-mera px-3 py-2 rounded-xl">DETAILS</a>
+            <a href="{{route('projectdetail',  $project->slug)}}" class="bg-mera px-3 py-2 rounded-xl text-white font-semibold
+          transition-all duration-500 ease-in-out 
+          hover:bg-white hover:text-mera hover:scale-110 hover:shadow-xl hover:-translate-y-1">DETAILS</a>
         </div>
     </div>
 </div>

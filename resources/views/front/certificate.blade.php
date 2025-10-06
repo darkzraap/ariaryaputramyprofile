@@ -30,7 +30,7 @@
                 <!-- Actions -->
                 <div>
                     <a href="{{ $certificate->link }}" target = '_blank' 
-                       class="inline-block bg-white text-black font-inter font-semibold px-4 py-2 rounded-xl shadow-md hover:bg-mera hover:text-white transition">
+                       class="inline-block bg-white text-black font-inter font-semibold px-4 py-2 rounded-xl shadow-md hover:bg-mera hover:text-white transition hover:scale-110 hover:shadow-xl hover:-translate-y-1">
                         Show Credential
                     </a>
                 </div>

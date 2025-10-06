@@ -1,8 +1,6 @@
-
-  <!-- Footer  -->
 <!-- Footer -->
 <section class="bg-black text-white py-12">
-  <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+  <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
     
     <!-- Left Side -->
     <div class="flex flex-col gap-4 max-w-sm">

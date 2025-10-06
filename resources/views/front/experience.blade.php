@@ -32,8 +32,13 @@
 
         <!-- Actions -->
         <div class="flex flex-row gap-3 items-center">
-            <a href="#" class="bg-white px-3 py-2 rounded-xl font-inter text-black ">{{$experience->status}}</a>
-            <a href="{{route('experiencedetail', $experience->slug)}} " class="bg-mera px-3 py-2 rounded-xl">DETAILS</a>
+            <p class="bg-white px-8 py-2 rounded-xl font-inter text-black ">{{$experience->status}}</p>
+            <a href="{{ route('experiencedetail', $experience->slug) }}"
+   class="bg-mera px-3 py-2 rounded-xl text-white font-semibold
+          transition-all duration-500 ease-in-out 
+          hover:bg-white hover:text-mera hover:scale-110 hover:shadow-xl hover:-translate-y-1">
+  DETAILS
+</a>
         </div>
     </div>
 </div>

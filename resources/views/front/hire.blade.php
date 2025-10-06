@@ -17,7 +17,7 @@
     <section class="flex flex-col lg:flex-row items-center gap-10 max-w-6xl w-full">
 
         <!-- Left Image -->
-        <div class="flex justify-center w-full lg:w-1/2">
+        <div class="flex justify-center w-full lg:w-1/2 transition-transform duration-500 ease-in-out hover:scale-110">
             <img src="{{ asset('images/hirebg.png') }}" alt="Hire Me" class="w-full max-w-[40rem] rounded-xl shadow-lg object-cover">
         </div>
 

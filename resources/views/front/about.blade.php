@@ -67,14 +67,11 @@
 
             <!-- Buttons -->
             <div class="mt-8 flex flex-col sm:flex-row gap-4 w-full">
-                <a href="{{route('certificate')}}"
+                <a href="{{route('hire')}}"
                    class="flex-1 text-center bg-mera px-6 py-4 rounded-xl font-inter text-white font-bold shadow-lg hover:bg-red-600 transition duration-300 transform hover:-translate-y-1 hover:shadow-2xl">
-                   See My Certifications
+                   Send Me a Message
                 </a>
-                <a href="{{route('experience')}}"
-                   class="flex-1 text-center bg-mera px-6 py-4 rounded-xl font-inter text-white font-bold shadow-lg hover:bg-red-600 transition duration-300 transform hover:-translate-y-1 hover:shadow-2xl">
-                   Continue to My Experiences
-                </a>
+                
             </div>
         </div>
     </div>

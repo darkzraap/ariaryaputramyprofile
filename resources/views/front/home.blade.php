@@ -23,11 +23,14 @@
   <!-- Right image -->
 <div class="flex justify-end">
   <div class="flex-1 relative flex justify-end">
-    <img src="{{ asset('images/bgpoto.png') }}" 
-         alt="Profile" 
-         class="w-full max-w-[34rem] h-auto object-contain">
+    <img 
+      src="{{ asset('images/bgpoto.png') }}" 
+      alt="Profile" 
+      class="w-full max-w-[34rem] h-auto object-contain transform transition-transform duration-500 ease-in-out hover:scale-110"
+    >
   </div>
 </div>
+
 
   <!-- Social icons -->
   <div class="absolute bottom-4 sm:bottom-6 left-4 sm:left-12 flex space-x-4 sm:space-x-6 z-20">
@@ -75,7 +78,7 @@
     <!-- Cards -->
     <div class="grid grid-cols-2 md:flex md:gap-4 justify-center items-center gap-4">
       <!-- Card 1 -->
-      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-mera rounded-lg text-white shadow-lg">
+      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-mera rounded-lg text-white shadow-lg transform transition-transform duration-250 ease-in-out hover:scale-110 hover:shadow-2xl transform transition-transform duration-500 ease-in-out hover:scale-110 hover:shadow-2xl">
         <img src="{{ asset('images/networking.png') }}" alt="Networking" class="absolute top-3 left-3 w-6 h-6 sm:w-8 sm:h-8 object-contain">
         <div class="flex items-center justify-center h-full">
           <p>GOOD COM</p>
@@ -83,7 +86,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-oren rounded-lg text-white shadow-lg">
+      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-oren rounded-lg text-white shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-110 hover:shadow-2xl">
         <img src="{{ asset('images/lightning.png') }}" alt="Creative" class="absolute top-3 left-3 w-6 h-6 sm:w-8 sm:h-8 object-contain">
         <div class="flex items-center justify-center h-full">
           <p>CREATIVE</p>
@@ -91,7 +94,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-biru rounded-lg text-white shadow-lg">
+      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-biru rounded-lg text-white shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-110 hover:shadow-2xl">
         <img src="{{ asset('images/group.png') }}" alt="Fast Learner" class="absolute top-3 left-3 w-6 h-6 sm:w-8 sm:h-8 object-contain">
         <div class="flex items-center justify-center h-full">
           <p>FAST LEARNER</p>
@@ -99,7 +102,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-pin rounded-lg text-white shadow-lg">
+      <div class="relative font-franklin font-bold text-[14px] sm:text-[16px] text-center h-[14rem] sm:h-[16rem] md:h-[18rem] w-full sm:w-[8rem] bg-gradient-to-t from-itam to-pin rounded-lg text-white shadow-lg transform transition-transform duration-500 ease-in-out hover:scale-110 hover:shadow-2xl">
         <img src="{{ asset('images/puzzle.png') }}" alt="Team Work" class="absolute top-3 left-3 w-6 h-6 sm:w-8 sm:h-8 object-contain">
         <div class="flex items-center justify-center h-full">
           <p>TEAM WORK</p>
@@ -113,7 +116,7 @@
 
     <div class = 'flex flex-col justify-center items-center text-white'>
         <p class = 'font-inter font-bold text-[4rem] mt-5'>Tools</p>
-        <p class = 'font-inter text-[20px]'>Click To See Detail Skill</p>
+        <p class = 'font-inter text-[20px] animate-bounce'>Click To See Detail Skill</p>
     </div>
   
 
@@ -176,9 +179,9 @@
         <p class = 'font-inter text-[20px]'>Take a little peek at what I’ve been working on</p>
     </div>
 
-<div class="flex justify-center mt-8 flex-col justify-center items-center gap-5">
+<div class="flex justify-center mt-8 flex-col justify-center items-center gap-5 ">
   <!-- Image -->
-  <img src="{{ asset('images/peak.png') }}" alt="Peak Image" class="w-full max-w-2xl rounded-lg object-cover">
+  <img src="{{ asset('images/peak.png') }}" alt="Peak Image" class="w-full max-w-2xl rounded-lg object-cover transition-transform duration-500 ease-in-out hover:scale-110">
 
   <!-- Overlay button -->
 
